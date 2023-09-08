@@ -3,9 +3,9 @@
 #include <time.h>
 /**
  * main - Entry point
- * Description: This is the main program that will assign a random number to the
- * varible 'n'. It then calculates and print the last digit of 'n' along with
- * wether it is greater than 5, equal to 0, or less than 6 and not 0.
+ * Description: This is the main program that will assign a random number
+ * varible 'n'. It then calculates and print the last digit of 'n' along
+ * wether it is greater than 5, equal to 0, or less than 6, not 0.
  * Return: Always 0 (Success)
  */
 int main(void)
