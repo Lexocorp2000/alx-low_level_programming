@@ -8,7 +8,7 @@
  * checks if it is positive, negative, or zero, and print the result.
  *
  * Return: Always 0 (Success)
- * */
+ */
 int main(void)
 {
 	int n;
