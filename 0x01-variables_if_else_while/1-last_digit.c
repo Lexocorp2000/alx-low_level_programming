@@ -3,7 +3,6 @@
 #include <time.h>
 /**
  * main - Entry point
- *
  * Description: This is the main program that  will assign a random number to the variable 'n'.
  * Return: Always 0 (Success)
  */
@@ -24,4 +23,4 @@ int main(void)
 		printf("less than 6 and not 0\n");
 
 	return (0);
-}	
+}
