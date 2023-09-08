@@ -4,9 +4,7 @@
 /**
  * main - Entry point
  *
- * Description: This is the main program that  will assign a random number to the variable 'n' each time it is executed,
- * complete the source code in order to print the last digit of the number stored in the variable 'n'.
- *
+ * Description: This is the main program that  will assign a random number to the variable 'n' each time it is executed, complete the source code in order to print the last digit of the number stored in 'n'.
  * Return: Always 0 (Success)
  */
 int main(void)
