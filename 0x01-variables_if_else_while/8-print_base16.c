@@ -6,7 +6,7 @@
 
 int main(void)
 {
-	
+
 	char digit;
 
 	int i;
