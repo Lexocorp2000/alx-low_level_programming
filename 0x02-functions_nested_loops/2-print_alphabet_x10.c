@@ -1,33 +1,43 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+/* Protype for the _putchar function */
 int _putchar(char c);
 
+/* Prototype for the print_alphabet_x10 function */
 void print_alphabet_x10(void);
 
-#endif /* MAIN_H */ 
+#endif /* MAIN_H */
 
 #include "main.h"
 
 /**
- * Print_alphabet_x10 - Prints the alphabet in lowercase 10 times.
- * Return: 0 (Success)
+ * _putchar - Custom putchar function.
+ *@c: The character to print.
+ *
+ * Return: 1 (Success)
  */
 int _putchar(char c)
 {
-	return write(1, &c, 1);
+	return (write(1, &c, 1));
 }
 
-
+/**
+ * print_alphabet - Print the alphabet in lowercase.
+ */
 void print_alphabet(void)
 {
 	char letter;
+
 	for  (letter = 'a'; letter <= 'z'; letter++)
 	{
 		_putchar(letter);
 	}
 }
 
+/**
+ * print_alphabet_x10 - Prints alphabets in lowercase 10 times.
+ */
 void print_alphabet_x10(void)
 {
 	int i;
@@ -40,6 +50,11 @@ void print_alphabet_x10(void)
 
 #include "main.h"
 
+/**
+ * main - Entry point of the program.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	print_alphabet_x10();
