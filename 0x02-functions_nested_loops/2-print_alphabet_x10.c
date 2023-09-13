@@ -12,10 +12,10 @@ void print_alphabet_x10(void);
 #include "main.h"
 
 /**
- * _putchar - Custom putchar function.
- *@c: The character to print.
+ * _putchar - Custom putchar function
+ * @c: The character to print
  *
- * Return: 1 (Success)
+ * Return: On success, returns the number of characters written (1)
  */
 int _putchar(char c)
 {
@@ -23,7 +23,7 @@ int _putchar(char c)
 }
 
 /**
- * print_alphabet - Print the alphabet in lowercase.
+ * print_alphabet - Prints the alphabet in lowercase.
  */
 void print_alphabet(void)
 {
@@ -36,7 +36,7 @@ void print_alphabet(void)
 }
 
 /**
- * print_alphabet_x10 - Prints alphabets in lowercase 10 times.
+ * print_alphabet_x10 - Prints the alphabets in lowercase 10 times.
  */
 void print_alphabet_x10(void)
 {
