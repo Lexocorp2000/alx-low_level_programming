@@ -15,6 +15,7 @@ void print_alphabet_x10(void);
 
 /**
  * _putchar - Custom putchar function
+ *
  * @c: The character to print
  *
  * Return: On success, returns the number of characters written (1)
